@@ -10,7 +10,7 @@
                     <a href="https://t.me/farkhodo_v1ch" class="ease-linear duration-200 hover:mt-[-5px]">
                         <font-awesome-icon :icon="['fab', 'telegram']" size="2x"/>
                     </a>
-                    <a href="https://github.com/Sadriddin0124" class="ease-linear duration-200 hover:mt-[-5px]">
+                    <a href="https://instagram.com/rfs.dev" class="ease-linear duration-200 hover:mt-[-5px]">
                         <font-awesome-icon :icon="['fab', 'instagram']" size="2x"/>
                     </a>
                     <a href="https://github.com/Sadriddin0124" class="ease-linear duration-200 hover:mt-[-5px]">
@@ -22,7 +22,7 @@
                 </div>
                 <div class="flex items-center flex-col sm:flex-row gap-2">
                     <a href="/about" class="py-2 px-5 ease-linear duration-200 text-white hover:shadow-gray-500 hover:shadow-md rounded-full bg-black">About me</a>
-                    <a href="/blog" class="py-2 px-5 ease-linear duration-200 bg-white rounded-full hover:shadow-md">Read blog</a>
+                    <a href="https://t.me/rfs_dev" class="py-2 px-5 ease-linear duration-200 bg-white rounded-full hover:shadow-md">Read blog</a>
                 </div>
             </div>
         </div>

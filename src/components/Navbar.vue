@@ -21,6 +21,9 @@
                     <li v-for="(item,index) in links" :key="index" class="hover:text-[17px] ease-linear duration-300" @click="store.changePath(item.path)">
                         <router-link :to="item?.path" :class="item?.path === store.pathname ? 'text-violet-600' : ''">{{ item?.text }}</router-link>
                     </li>
+                    <li class="hover:text-[17px] ease-linear duration-300" @click="store.changePath(item.path)">
+                        <a href="https://t.me/rfs_dev" :class="item?.path === store.pathname ? 'text-violet-600' : ''">Blog</a>
+                    </li>
                 </ul>
                 <ul class="absolute flex flex-col sm:flex-row w-[100%] sm:w-auto gap-4 py-2 px-5 shadow rounded-2xl sm:rounded-full bg-white fly" v-else>
                     <li v-for="(item,index) in links" :key="index">
@@ -40,7 +43,6 @@ import { RouterLink } from 'vue-router';
     const links = [
         {text: "Portfolio", path: "/portfolio"},
         {text: "About", path: "/about"},
-        {text: "Blog", path: "/blog"},
     ]
     const active = ref(true)
     const changeActive = () => {
