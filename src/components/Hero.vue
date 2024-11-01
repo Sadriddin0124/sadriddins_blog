@@ -7,16 +7,16 @@
             <div class="flex flex-col gap-3 items-center">
                 <h1 class="text-[20px] sm:text-[24px] font-bold mt-2">Sadriddin Ravshanov</h1>
                 <div class="flex gap-3 text-black">
-                    <a href="https://t.me/farkhodo_v1ch" class="ease-linear duration-200 hover:text-blue-500">
+                    <a href="https://t.me/farkhodo_v1ch" class="ease-linear duration-200 hover:mt-[-5px]">
                         <font-awesome-icon :icon="['fab', 'telegram']" size="2x"/>
                     </a>
-                    <a href="https://github.com/Sadriddin0124" class="ease-linear duration-200 hover:text-red-900">
+                    <a href="https://github.com/Sadriddin0124" class="ease-linear duration-200 hover:mt-[-5px]">
                         <font-awesome-icon :icon="['fab', 'instagram']" size="2x"/>
                     </a>
-                    <a href="https://github.com/Sadriddin0124" class="ease-linear duration-200 hover:text-white bg-white hover:bg-black rounded-full h-[30px]">
+                    <a href="https://github.com/Sadriddin0124" class="ease-linear duration-200 hover:mt-[-5px]">
                         <font-awesome-icon :icon="['fab', 'github']" size="2x"/>
                     </a>
-                    <a href="https://linkedin.com/in/sadriddin-ravshanov24" class="ease-linear duration-200 hover:text-blue-600">
+                    <a href="https://linkedin.com/in/sadriddin-ravshanov24" class="ease-linear duration-200 hover:mt-[-5px]">
                         <font-awesome-icon :icon="['fab', 'linkedin']" size="2x"/>
                     </a>
                 </div>
